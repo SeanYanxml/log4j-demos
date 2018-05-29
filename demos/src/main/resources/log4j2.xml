@@ -6,22 +6,22 @@
 			<PatternLayout pattern="%d [%t] %-5p [%c] - %m%n" />
 		</Console>
 
-<!-- 		<RollingFile name="RollingAppender" fileName="hello.log" filePattern="hello-{yyyy-MM-dd}.log">
+		<RollingFile name="RollingAppender" fileName="hello.log" filePattern="hello-{yyyy-MM-dd}.log">
 			<ThresholdFilter level="DEBUG" onMatch="ACCEPT"
 				onMismatch="DENY" />
 			<PatternLayout pattern="%d [%t] %-5p [%c] - %m%n" />
 			<Policies>
-				<SizeBasedTriggeringPolicy size="100b" />
+				<SizeBasedTriggeringPolicy size="100KB" />
 			</Policies>
-		</RollingFile> -->
+		</RollingFile>
 		
 	</Appenders>
 
 	<Loggers>
 		<Logger name="com.yanxml" level="info" additivity="false">
 			<AppenderRef ref="Console" />
-<!-- 			<AppenderRef ref="RollingAppender" />
- -->		</Logger>
+			<AppenderRef ref="RollingAppender" />
+		</Logger>
 		
 		<Root level="INFO">
 			<AppenderRef ref="Console" />
