@@ -1,7 +1,3 @@
-.*
-!.gitignore
-!.gitkeep
-
 # Compiled class file
 *.class
 
