@@ -20,12 +20,13 @@ public class HelloWroldLog4j2 {
 	public static void main(String[] args) {
 		System.out.println("System Out: HelloWorld!");
 		
-		logger.trace("Logger Level: TRACE");		
-		logger.debug("Logger Level: DEBUG");
-		logger.info("Logger Level: INFO");
-		logger.warn("Logger Level: WARN");
-		logger.error("Logger Level: ERROR");
-		logger.fatal("Logger Level: FATAL");
+//		logger.trace("Logger Level: TRACE");		
+//		logger.debug("Logger Level: DEBUG");
+//		logger.info("Logger Level: INFO");
+//		logger.warn("Logger Level: WARN");
+		logger.error("Error1 , error2, Error3");
+//		logger.error("Logger Level: ERROR 123");
+//		logger.fatal("Logger Level: FATAL");
 
 	}
 
