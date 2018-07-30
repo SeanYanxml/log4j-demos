@@ -70,8 +70,8 @@ url: http://localhost:8080/LogLearning2/test
 信息: Starting ProtocolHandler ["ajp-nio-8009"]
 七月 29, 2018 8:28:54 下午 org.apache.catalina.startup.Catalina start
 信息: Server startup in 1808 ms
-2018-07-29 20:29:01,365 [http-nio-8080-exec-3] DEBUG [com.yanxml.log4j.demos.spring.Log4JTestServlet] [44] - This is debug message. 
-2018-07-29 20:29:01,369 [http-nio-8080-exec-3] INFO  [com.yanxml.log4j.demos.spring.Log4JTestServlet] [46] - This is info message. 
-2018-07-29 20:29:01,369 [http-nio-8080-exec-3] ERROR [com.yanxml.log4j.demos.spring.Log4JTestServlet] [48] - This is error message. 
 
+This is debug message. 
+This is info message. 
+This is error message. 
 ```
